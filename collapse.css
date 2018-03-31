@@ -1,0 +1,29 @@
+.con{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.grp1, .grp2, .grp3 {
+	background-color: #E7E7E7;
+	width: 50%;
+    border: none;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0.3em 0.3em;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+
+#gp, #gpp, #gppp{
+	display: none;
+	position:relative;
+	background-color: white;
+	color:black;
+	font-size: 1em;
+}
